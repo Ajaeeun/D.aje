@@ -1,0 +1,93 @@
+/*reset css*/
+* {margin: 0; padding: 0;}
+body {font-size: 12px;
+      font-family: futura-pt, sans-serif;
+      font-style: normal;
+      font-weight: 500;}
+li {list-style: none;}
+img {border: 0;}
+a {text-decoration: none; color: inherit;}
+
+header {background: #FFFFFF; width: 100%; height: 150px; overflow: hidden; overflow-x:hidden;}
+header .logo {width: 350px; height: 120px; margin-left: 30px; overflow: hidden; float: left;}
+header .logo .text {width: 160px; height: 12px; color: #673E00; font-size: 13px; font-weight: 900; float: left; margin-top: 54px;}
+header .logo .header {width: 160px; height: 90px; padding-top: 30px; display:flex; justify-content: center; align-items: center; float: left; padding-left: 10px;}
+
+header .menu {width: 1100px; height: 60px; float: left; margin-top: 40px; overflow-x:hidden;}
+header .menu .menu_bar {width: 1100px; height: 40px; overflow: hidden;}
+header .menu .menu_bar .about_me {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #FFA796; float: left; text-align: center;}
+header .menu .menu_bar .portfolio {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #7E5F40; float: left; text-align: center;}
+header .menu .menu_bar .contact {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #7E5F40; float: left; text-align: center;}
+
+header .menu .menu_bar_line {width: 1100px; height: 20px; overflow-x:hidden;}
+
+.about {background: #FFFFFF; width: 100%; height: 2230px; overflow-x:hidden;}
+
+.about .info {width: 1130px; height: 600px; overflow: hidden; margin-top: 10px; margin-left: 384px;}
+
+.about .info .information {width: 400px; height: 750px; float: left; margin-top: 140px;}
+.about .info .information .info_name {width: 190px; height: 30px; font-size: 25px; font-weight: 600; color: #7E5F40; text-align: center;}
+.about .info .information .info_dc {width: 184px; height: 13px;}
+
+.about .info .information .info_nbrac {width: 400px; height: 350px; margin-top: 60px;}
+.about .info .information .info_nbrac .name {width: 400px; height: 40px; margin-top: 40px; overflow: hidden;}
+.about .info .information .info_nbrac .name .name1 {width: 50px; height: 20px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; margin-right: 60px;}
+.about .info .information .info_nbrac .name .name2 {width: 70px; height: 15px; font-size: 15px; font-weight: 600; color: #7B7B7B; float: left;}
+
+.about .info .information .info_nbrac .birth {width: 400px; height: 40px; overflow: hidden;}
+.about .info .information .info_nbrac .birth .birth1 {width: 80px; height: 15px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; margin-right: 30px;}
+.about .info .information .info_nbrac .birth .birth2 {width: 130px; height: 15px; font-size: 15px; font-weight: 600; color: #7B7B7B; float: left;}
+
+.about .info .information .info_nbrac .residence {width: 400px; height: 40px; overflow: hidden;}
+.about .info .information .info_nbrac .residence .residence1 {width: 80px; height: 15px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; margin-right: 30px;}
+.about .info .information .info_nbrac .residence .residence2 {width: 170px; height: 15px; font-size: 15px; font-weight: 600; color: #7B7B7B; float: left;}
+
+.about .info .information .info_nbrac .academic_ability {width: 400px; height: 40px; overflow: hidden;}
+.about .info .information .info_nbrac .academic_ability .academic_ability1 {width: 80px; height: 15px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; margin-right: 30px;}
+.about .info .information .info_nbrac .academic_ability .academic_ability2 {width: 250px; height: 15px; font-size: 15px; font-weight: 600; color: #7B7B7B; float: left;}
+
+.about .info .information .info_nbrac .career {width: 430px; height: 60px; overflow: hidden;}
+.about .info .information .info_nbrac .career .career1 {width: 80px; height: 15px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; margin-right: 30px;}
+.about .info .information .info_nbrac .career .career2 {width: 250px; height: 50px; float: left;}
+.about .info .information .info_nbrac .career .career2 .career2_1 {width: 250px; height: 25px; font-size: 15px; font-weight: 600; color: #7B7B7B; }
+.about .info .information .info_nbrac .career .career2 .career2_2 {width: 300px; height: 25px; font-size: 15px; font-weight: 600; color: #7B7B7B; }
+
+
+.about .info .info_ps {width: 600px; height: 800px; margin-left: 130px; float: left;}
+.about .info .info_ps .info_photo {width: 600px; height: 530px;}
+.about .info .info_ps .info_sub {width: 600px; height: 50px; overflow: hidden;}
+.about .info .info_ps .info_sub .info_sub01 {width: 190px; height: 15px; font-size: 15px; font-weight: 600; float: left; color: #FFA796; margin-top: 9px;}
+.about .info .info_ps .info_sub .info_sub02 {width: 220px; height: 25px; font-size: 25px; font-weight: 700; float: left; color: #FFA796; }
+
+.about .skill {width: 100%; height: 700px; padding-top: 150px; background: linear-gradient(to bottom, white, snow, snow, white) }
+.about .skill .skill_n {width: 400px; height: 50px; margin-left: 384px; margin-bottom: 100px; margin-top: 40px;}
+.about .skill .skill_n .skill_name {width: 150px; height: 30px; font-size: 25px; font-weight: 600; color: #7E5F40; text-align: center;}
+.about .skill .skill_n .skill_dc {width: 152px; height: 13px;}
+
+.about .skill .skill_all01 {width: 1000px; height: 160px; overflow: hidden; margin-left: 390px;}
+.about .skill .skill_all01 p1 {width: 150px; height: 150px; border: 3.5px solid #FFA796; border-radius: 100px; line-height: 140px; text-align: center; font-size: 15px; font-weight: 900; float: left; margin-left: 10px; color: #673E00;}
+.about .skill .skill_all01 p2 {width: 150px; height: 150px; border: 1px; background-color: #FFA796;  border-radius: 100px; line-height: 150px; text-align: center; font-size: 15px; font-weight: 900; float: left; margin-left: 10px; color: #ffffff;}
+.about .skill .skill_all01 p3 {width: 150px; height: 150px; border: 3.5px solid #FFA796; border-radius: 100px; line-height: 140px; text-align: center; font-size: 15px; font-weight: 900; float: left; margin-left: 10px; color: #673E00;}
+.about .skill .skill_all02 {width: 1000px; height: 160px; overflow: hidden; margin-left: 800px; margin-top: 30px;}
+.about .skill .skill_all02 p4 {width: 150px; height: 150px; border: 1px; background-color: #FFA796;  border-radius: 100px; line-height: 150px; text-align: center; font-size: 15px; font-weight: 900; float: left; margin-left: 10px; color: #ffffff;}
+.about .skill .skill_all02 p5 {width: 150px; height: 150px; border: 3.5px solid #FFA796; border-radius: 100px; line-height: 140px; text-align: center; font-size: 15px; font-weight: 900; float: left; margin-left: 10px; color: #673E00;}
+.about .skill .skill_all02 p6 {width: 150px; height: 150px; border: 1px; background-color: #FFA796;  border-radius: 100px; line-height: 150px; text-align: center; font-size: 15px; font-weight: 900; float: left; margin-left: 10px; color: #ffffff;}
+
+.about .interest {width: 100%; height: 600px;}
+.about .interest .interest_n {width: 200px; height: 50px; margin-left: 384px; margin-bottom: 100px; margin-top: 40px;}
+.about .interest .interest_n .interest_name {width: 150px; height: 30px; font-size: 25px; font-weight: 600; color: #7E5F40; text-align: center;}
+.about .interest .interest_all {width: 1000px; height: 500px; overflow: hidden; margin-left: 390px;}
+.about .interest .interest_all .interest_all01 {width: 500px; height: 500px; float: left;}
+.about .interest .interest_all .interest_all01 .interest_all01_pic {width: 290px; height: 290px;}
+.about .interest .interest_all .interest_all01 .interest_all01_com01 {width: 300px; height: 20px; font-size: 20px; font-weight: 900; margin-bottom: 30px; margin-top: 30px; text-align: center;}
+.about .interest .interest_all .interest_all01 .interest_all01_com02 {width: 300px; height: 80px; font-size: 11.5px; font-weight: 600; text-align: center; line-height: 18px;}
+.about .interest .interest_all .interest_all02 {width: 500px; height: 500px; float: left;}
+.about .interest .interest_all .interest_all02 .interest_all02_pic {width: 290px; height: 290px;}
+.about .interest .interest_all .interest_all02 .interest_all02_com01 {width: 300px; height: 20px; font-size: 20px; font-weight: 900; margin-bottom: 30px; margin-top: 30px; text-align: center;}
+.about .interest .interest_all .interest_all02 .interest_all02_com02 {width: 300px; height: 80px; font-size: 11.5px; font-weight: 600; text-align: center; line-height: 18px;}
+
+footer {background-color: #FFFFFF; width: 100%; height: 70px; overflow-x:hidden;}
+footer .footer_pic {width: 968px; height: 20px; margin: 0 auto;}
+footer .footer_inf {width: 330px; height: 30px; margin: 0 auto; overflow: hidden; text-align: center;}
+footer .footer_inf .footer_inf01 {width: 180px; height: 12px; font-size: 12px; font-weight: 900; float: left; text-align: center; line-height: 25px; color: #673E00;}
+footer .footer_inf .footer_inf02 {width: 150px; height: 17px; font-size: 17px; font-weight: 700; float: left; color: #673E00;}

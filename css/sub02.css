@@ -1,0 +1,115 @@
+/*reset css*/
+* {margin: 0; padding: 0;}
+body {font-size: 12px;
+      font-family: futura-pt, sans-serif;
+      font-style: normal;
+      font-weight: 500;}
+li {list-style: none;}
+img {border: 0;}
+a {text-decoration: none; color: inherit;}
+
+header {background: #FFFFFF; width: 100%; height: 200px; overflow: hidden;}
+header .logo {width: 350px; height: 120px; margin-left: 30px; overflow: hidden; float: left;}
+header .logo .text {width: 160px; height: 12px; color: #673E00; font-size: 13px; font-weight: 900; float: left; margin-top: 54px;}
+header .logo .header {width: 160px; height: 90px; padding-top: 30px; display:flex; justify-content: center; align-items: center; float: left; padding-left: 10px;}
+
+header .menu {width: 1100px; height: 60px; float: left; margin-top: 40px;}
+header .menu .menu_bar {width: 1100px; height: 40px; overflow: hidden;}
+header .menu .menu_bar .about_me {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #7E5F40; float: left; text-align: center;}
+header .menu .menu_bar .portfolio {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #FFA796; float: left; text-align: center;}
+header .menu .menu_bar .contact {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #7E5F40; float: left; text-align: center;}
+
+header .menu .menu_bar_line {width: 1100px; height: 20px;}
+
+header .menu .sub_menu {width: 500px; height: 50px; overflow: hidden; margin-left: 310px; margin-top: 10px;}
+header .menu .sub_menu .sub_menu01 {width: 100px; height: 20px; font-size: 17px; font-weight: 700; color: #FFA796; float: left;}
+header .menu .sub_menu .sub_menu02 {width: 200px; height: 20px; font-size: 17px; font-weight: 700; color: #7E5F40; float: left;}
+header .menu .sub_menu .sub_menu03 {width: 100px; height: 20px; font-size: 17px; font-weight: 700; color: #7E5F40; float: left;}
+
+.pportfolio {background: linear-gradient(to bottom, white, mistyrose); width: 100%; height: 3220px;}
+
+.pportfolio .Website_1 {width: 980px; height: 1100px; margin: 0 auto; background-color: #ffffff; }
+.pportfolio .Website_1 .Website_1_pic {width: 400px; height: 400px; margin: 0 auto;}
+.pportfolio .Website_1 .Website_1_com1 {width: 160px; height: 30px; font-size: 25px; color: #7e5f40; font-weight: 900; margin: 0 auto; padding-top: 50px;}
+
+.pportfolio .Website_1 .Website_1_com2 {width: 400px; height: 160px; margin: 0 auto; padding-top: 40px;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_01 {width: 400px; height: 20px; overflow: hidden;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_01 .Website_1_com2_01_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_01 .Website_1_com2_01_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_02 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_02 .Website_1_com2_02_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_02 .Website_1_com2_02_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_03 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_03 .Website_1_com2_03_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_03 .Website_1_com2_03_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_04 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_04 .Website_1_com2_04_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_1 .Website_1_com2 .Website_1_com2_04 .Website_1_com2_04_02 {width: 220px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+
+.pportfolio .Website_1 .Website_1_com3 {width: 130px; height: 25px; font-size: 25px; color: #7e5f40; font-weight: 900; margin-left: 430px; padding-top: 70px; text-align: center;}
+
+.pportfolio .Website_1 .Website_1_com4 {width: 344px; height: 130px; margin-left: 330px; padding-top: 30px;}
+.pportfolio .Website_1 .Website_1_com4 .Website_1_com4_01 {width: 344px; height: 120px; overflow: hidden; margin-top: 30px;}
+.pportfolio .Website_1 .Website_1_com4 .Website_1_com4_01 .Website_1_com4_01_01 {width: 100px; height: 100px; border:1px; background-color: #FFA796; border-radius: 100px; float: left;}
+.pportfolio .Website_1 .Website_1_com4 .Website_1_com4_01 .Website_1_com4_01_02 {width: 100px; height: 100px; border:2px solid #ccc; background: linear-gradient(to right, white, mistyrose); border-radius: 100px; float: left; margin-left: 20px;}
+.pportfolio .Website_1 .Website_1_com4 .Website_1_com4_01 .Website_1_com4_01_03 {width: 100px; height: 100px; border:1px; background-color: #7E5F40; border-radius: 100px; float: left; margin-left: 20px;}
+
+.pportfolio .Website_2 {width: 980px; height: 1100px; margin: 0 auto; background-color: #ffffff;}
+.pportfolio .Website_2 .Website_2_pic {width: 400px; height: 400px; margin: 0 auto;}
+.pportfolio .Website_2 .Website_2_com1 {width: 160px; height: 30px; font-size: 25px; color: #7e5f40; font-weight: 900; margin: 0 auto; padding-top: 50px;}
+
+.pportfolio .Website_2 .Website_2_com2 {width: 400px; height: 160px; margin: 0 auto; padding-top: 40px;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_01 {width: 400px; height: 20px; overflow: hidden;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_01 .Website_2_com2_01_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_01 .Website_2_com2_01_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_02 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_02 .Website_2_com2_02_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_02 .Website_2_com2_02_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_03 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_03 .Website_2_com2_03_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_03 .Website_2_com2_03_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_04 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_04 .Website_2_com2_04_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_2 .Website_2_com2 .Website_2_com2_04 .Website_2_com2_04_02 {width: 230px; height: 15px; font-size: 15px; font-weight: 600; float: left;}
+
+.pportfolio .Website_2 .Website_2_com3 {width: 130px; height: 25px; font-size: 25px; color: #7e5f40; font-weight: 900; margin-left: 430px; padding-top: 70px; text-align: center;}
+
+.pportfolio .Website_2 .Website_2_com4 {width: 348px; height: 130px; margin-left: 330px; padding-top: 30px;}
+.pportfolio .Website_2 .Website_2_com4 .Website_2_com4_01 {width: 348px; height: 120px; overflow: hidden; margin-top: 30px;}
+.pportfolio .Website_2 .Website_2_com4 .Website_2_com4_01 .Website_2_com4_01_01 {width: 100px; height: 100px; border:1px; background-color: #63759d; border-radius: 100px; float: left;}
+.pportfolio .Website_2 .Website_2_com4 .Website_2_com4_01 .Website_2_com4_01_02 {width: 100px; height: 100px; border:2px solid #ccc; background-color: #F5F5F5; border-radius: 100px; float: left; margin-left: 20px;}
+.pportfolio .Website_2 .Website_2_com4 .Website_2_com4_01 .Website_2_com4_01_03 {width: 100px; height: 100px; border:2px solid #ccc; background-color: #EEF3FF; border-radius: 100px; float: left; margin-left: 20px;}
+
+.pportfolio .Website_3 {width: 980px; height: 1000px; margin: 0 auto; background-color: #ffffff; padding-bottom: 20px;}
+.pportfolio .Website_3 .Website_3_pic {width: 400px; height: 400px; margin: 0 auto;}
+.pportfolio .Website_3 .Website_3_com1 {width: 160px; height: 30px; font-size: 25px; color: #7e5f40; font-weight: 900; margin: 0 auto; padding-top: 50px;}
+
+.pportfolio .Website_3 .Website_3_com2 {width: 400px; height: 160px; margin: 0 auto; padding-top: 40px;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_01 {width: 400px; height: 20px; overflow: hidden;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_01 .Website_3_com2_01_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_01 .Website_3_com2_01_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_02 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_02 .Website_3_com2_02_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_02 .Website_3_com2_02_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_03 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_03 .Website_3_com2_03_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_03 .Website_3_com2_03_02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_04 {width: 500px; height: 20px; overflow: hidden; margin-top: 20px;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_04 .Website_3_com2_04_01 {width: 200px; height: 18px; font-size: 18px; font-weight: 900; float: left; text-align: center;}
+.pportfolio .Website_3 .Website_3_com2 .Website_3_com2_04 .Website_3_com2_04_02 {width: 220px; height: 15px; font-size: 15px; font-weight: 600; float: left; }
+
+.pportfolio .Website_3 .Website_3_com3 {width: 130px; height: 25px; font-size: 25px; color: #7e5f40; font-weight: 900; margin-left: 430px; padding-top: 70px; text-align: center;}
+
+.pportfolio .Website_3 .Website_3_com4 {width: 344px; height: 130px; margin-left: 380px; padding-top: 30px;}
+.pportfolio .Website_3 .Website_3_com4 .Website_3_com4_01 {width: 344px; height: 120px; overflow: hidden; margin-top: 30px;}
+.pportfolio .Website_3 .Website_3_com4 .Website_3_com4_01 .Website_3_com4_01_01 {width: 100px; height: 100px; border:1px; background-color: #ffabac; border-radius: 100px; float: left;}
+.pportfolio .Website_3 .Website_3_com4 .Website_3_com4_01 .Website_3_com4_01_02 {width: 100px; height: 100px; border:2px solid #ccc; background-color: #ffffff; border-radius: 100px; float: left; margin-left: 20px;}
+
+
+
+footer {background-color: mistyrose; width: 100%; height: 60px;}
+footer .footer {background-color: #ffffff; width: 980px; height: 60px; margin: 0 auto;}
+footer .footer_pic {width: 968px; height: 20px; margin: 0 auto;}
+footer .footer_inf {width: 330px; height: 30px; margin: 0 auto; overflow: hidden; text-align: center;}
+footer .footer_inf .footer_inf01 {width: 180px; height: 12px; font-size: 12px; font-weight: 900; float: left; text-align: center; line-height: 25px; color: #673E00;}
+footer .footer_inf .footer_inf02 {width: 150px; height: 17px; font-size: 17px; font-weight: 700; float: left; color: #673E00;}

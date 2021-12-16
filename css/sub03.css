@@ -1,0 +1,45 @@
+/*reset css*/
+* {margin: 0; padding: 0;}
+body {font-size: 12px;
+      font-family: futura-pt, sans-serif;
+      font-style: normal;
+      font-weight: 500;}
+li {list-style: none;}
+img {border: 0;}
+a {text-decoration: none; color: inherit;}
+
+header {background: #ffffff; width: 100%; height: 150px; overflow: hidden; overflow-x:hidden;}
+header .logo {width: 350px; height: 120px; margin-left: 30px; overflow: hidden; float: left;}
+header .logo .text {width: 160px; height: 12px; color: #673E00; font-size: 13px; font-weight: 900; float: left; margin-top: 54px;}
+header .logo .header {width: 160px; height: 90px; padding-top: 30px; display:flex; justify-content: center; align-items: center; float: left; padding-left: 10px;}
+
+header .menu {width: 1100px; height: 60px; float: left; margin-top: 40px; overflow-x:hidden;}
+header .menu .menu_bar {width: 1100px; height: 40px; overflow: hidden;}
+header .menu .menu_bar .about_me {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #7E5F40; float: left; text-align: center;}
+header .menu .menu_bar .portfolio {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #7E5F40; float: left; text-align: center;}
+header .menu .menu_bar .contact {width: 320px; height: 23px; font-size: 22px; font-weight: 600; color: #FFA796; float: left; text-align: center;}
+
+header .menu .menu_bar_line {width: 1100px; height: 20px; overflow-x:hidden;}
+
+.ccontact {background: linear-gradient(to bottom, white, snow, snow, white); width: 100%; height: 480px; overflow: hidden;}
+.ccontact .contact_text {width: 935px; height: 400px; padding-top: 150px; float: left;}
+.ccontact .contact_text .contact_me {width: 210px; height: 25px; font-size: 25px; font-weight: 900; color: #7E5F40; margin-left: 384px;}
+.ccontact .contact_text .contact_phone {width: 300px; height: 40px; overflow: hidden; margin-top: 50px; margin-left: 384px;}
+.ccontact .contact_text .contact_phone .contact_phone01 {width: 100px; height: 25px; font-size: 25px; font-weight: 700; color: #7E5F40; float: left;}
+.ccontact .contact_text .contact_phone .contact_phone02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; line-height: 40px;}
+.ccontact .contact_text .contact_email {width: 300px; height: 40px; overflow: hidden; margin-left: 384px;}
+.ccontact .contact_text .contact_email .contact_email01 {width: 100px; height: 25px; font-size: 25px; font-weight: 700; color: #7E5F40; float: left;}
+.ccontact .contact_text .contact_email .contact_email02 {width: 200px; height: 15px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; line-height: 40px;}
+.ccontact .contact_text .contact_instagram {width: 400px; height: 40px; overflow: hidden; margin-left: 384px;}
+.ccontact .contact_text .contact_instagram .contact_instagram01 {width: 150px; height: 25px; font-size: 25px; font-weight: 700; color: #7E5F40; float: left;}
+.ccontact .contact_text .contact_instagram .contact_instagram02 {width: 150px; height: 15px; font-size: 15px; font-weight: 600; color: #7E5F40; float: left; line-height: 40px;}
+
+.ccontact .contact_round {width: 600px; height: 490px; float: left; padding-top: 61px;}
+.ccontact .contact_round .cr {width: 600px; height: 431px;}
+
+footer {background-color: #ffffff; width: 100%; height: 60px;}
+footer .footer {background-color: #ffffff; width: 980px; height: 60px; margin: 0 auto;}
+footer .footer_pic {width: 968px; height: 20px; margin: 0 auto;}
+footer .footer_inf {width: 330px; height: 30px; margin: 0 auto; overflow: hidden; text-align: center;}
+footer .footer_inf .footer_inf01 {width: 180px; height: 12px; font-size: 12px; font-weight: 900; float: left; text-align: center; line-height: 25px; color: #673E00;}
+footer .footer_inf .footer_inf02 {width: 150px; height: 17px; font-size: 17px; font-weight: 700; float: left; color: #673E00;}
